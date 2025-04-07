@@ -23,7 +23,9 @@ def get_hit_count():
 @app.route('/')
 def hello():
     count = get_hit_count()
-    return f'Hello from Docker with env variables! I have been seen {count} times.\n'
+    #return f'Hello from Docker with env variables! I have been seen {count} times.\n'
+    return f'🚀 Hello from Docker CI/CD pipeline! You have visited {count} times. 🚀\n'
+
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
