@@ -24,7 +24,7 @@ def get_hit_count():
 def hello():
     count = get_hit_count()
     #return f'Hello from Docker with env variables! I have been seen {count} times.\n'
-    return f'🚀 Hello from Docker CI/CD pipeline! You have visited {count} times.latest surya 🚀\n'
+    return f'🚀 Hello from Docker CI/CD pipeline! You have visited {count} times.latest suryavanu 🚀\n'
 
 
 if __name__ == "__main__":
